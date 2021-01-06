@@ -22,8 +22,6 @@ The CTAT-Mutations Pipeline integrates GATK Best Practices along with downstream
 
 # How to use
 
-# Quickstart
-
 ## Input
 
 ## Output
@@ -59,5 +57,3 @@ The output from the CTAT-Mutations pipeline includes variant vcf files, summary 
 # Testing
 
 # Installation
-
-## Install Nim
