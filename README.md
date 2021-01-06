@@ -17,7 +17,7 @@
 ## Output
 
 # Annotations included by default
-Here’s a list of the annotations that I see in this file, I’ll put this list on the github for the other groups to review:
+Here’s a list of the annotations in the output file
 
 - If the variant has entries in OMIM/OMIA
 - Variant is Precious(Clinical Pubmed Cited)
