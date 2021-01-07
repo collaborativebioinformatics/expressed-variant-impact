@@ -10,9 +10,6 @@ Meghana Pagadala (mpagadal@ucsd.edu)
 Kym Pagel (kpagel1@jhu.edu)
 
 
-# Intro statement
-
-
 # Why Trinity CTAT?
 
 The CTAT-Mutation pipeline (https://github.com/NCIP/ctat-mutations/wiki) makes it easy to discover variants from RNA-seq data, and requires only the RNA-seq reads as input. The pipeline also annotates variants, including the RADAR and RediPortal databases for identifying likely RNA-editing events, dbSNP and gnomAD for annotating common variants, COSMIC to highlight known cancer mutations, and OpenCRAVAT to annotate and prioritize variants according to likely biological impact and relevance to cancer.
