@@ -32,6 +32,17 @@ We encoded the pipeline using Workflow Description Language (WDL) that was teste
 
 ```java -jar dxWDL-v1.50.jar compile ctat_mutations_2pt4.wdl -project project-FzpxV2j06F1JYgg6F553Z9yv```. 
 
+In DNA Nexus, the workflow ontains the following components: 
+
+![Workflow](workflow_setup.png)
+
+For the example run, the following configuration settings were used: 
+
+![Configuration](configurations.png)
+
+And right now we're stuck at this error: 
+
+![Error](error_memoryunitg.png)
 
 # How to use the pipeline
 
