@@ -18,9 +18,9 @@ The CTAT-Mutation pipeline (https://github.com/NCIP/ctat-mutations/wiki) makes i
 
 The CTAT-Mutations Pipeline integrates GATK Best Practices along with downstream steps to annotate and filter variants, and to additionally prioritize variants that may be relevant to cancer biology. 
 
-# How does it work?
+# How does this pipeline work?
 
-# How to use
+# How to use the pipeline
 
 ## Input
 
