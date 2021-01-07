@@ -7,7 +7,7 @@ Olaitan I. Awe (laitanawe@gmail.com)
 
 Meghana Pagadala (mpagadal@ucsd.edu)
 
-Kym Pagel (kpagel1442@gmail.com)
+Kym Pagel (kpagel1@jhu.edu)
 
 
 # Intro statement
@@ -25,6 +25,12 @@ The CTAT-Mutations Pipeline integrates GATK Best Practices along with downstream
 ![Trinity CTAT pipeline](https://github.com/NCIP/ctat-mutations/wiki/imgs/workflow.png) 
 
 [Workflow](img/ctat_workflow.png)
+
+
+
+We encoded the pipeline using Workflow Description Language (WDL) that was tested on an outside platform for fidelity, and it and ran without significant problems. Each fastq took about two hours, including data loading. The WDL implementation was then moved to DNA Nexus, and an app was created with: 
+
+```java -jar dxWDL-v1.50.jar compile ctat_mutations_2pt4.wdl -project project-FzpxV2j06F1JYgg6F553Z9yv```. 
 
 
 # How to use the pipeline
