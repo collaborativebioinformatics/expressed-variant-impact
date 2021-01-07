@@ -24,6 +24,7 @@ The CTAT-Mutations Pipeline integrates GATK Best Practices along with downstream
 
 
 # How to use the pipeline
+[Workflow](img/ctat_workflow.png)
 
 
 ## Input
