@@ -22,9 +22,12 @@ The CTAT-Mutations Pipeline integrates GATK Best Practices along with downstream
 
 # How does this pipeline work?
 
+![Trinity CTAT pipeline](https://github.com/NCIP/ctat-mutations/wiki/imgs/workflow.png) 
+
+[Workflow](img/ctat_workflow.png)
+
 
 # How to use the pipeline
-[Workflow](img/ctat_workflow.png)
 
 
 ## Input
