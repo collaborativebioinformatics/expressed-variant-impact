@@ -86,4 +86,6 @@ CTAT pipeline was applied to a dataset (Suzuki et al. 2019, ENA accession: PRJDB
 |  | Etoposide (Inhibitor_Topo II)  | 11  | 
 |  | Temsirolimus (Inhibitor_mTOR)  | 11  | 
 
+See **SraRunTable_filtered.txt** for individual level metadata.
+
 # Installation
