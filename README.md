@@ -65,5 +65,11 @@ The output from the CTAT-Mutations pipeline includes variant vcf files, summary 
 
 # Testing
 
+## Dataset
+
+CTAT pipeline was applied to a dataset (Suzuki et al. 2019, ENA accession: PRJDB6952). Suzuki et al. treated 23 lung cancer cell lines with 95 compounds including approved receptor tyrosine kinase inhibitors and epigenetic targeting drugs. High-throughput RNAseq was conducted with four different concentrations and three time points (24,48,72h). 
+
+3 cell lines and 4 treatments were included for testing.
+
 
 # Installation
