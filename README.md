@@ -69,7 +69,23 @@ The output from the CTAT-Mutations pipeline includes variant vcf files, summary 
 
 CTAT pipeline was applied to a dataset (Suzuki et al. 2019, ENA accession: PRJDB6952). Suzuki et al. treated 23 lung cancer cell lines with 95 compounds including approved receptor tyrosine kinase inhibitors and epigenetic targeting drugs. High-throughput RNAseq was conducted with four different concentrations and three time points (24,48,72h). 
 
-3 cell lines and 4 treatments were included for testing.
+3 cell lines and 4 treatments were included for testing (124 total).
 
+| Cell Line  | Drug | Number of Samples |
+| ------------- | ------------- |------------- |
+| A549 | (+)-JQ1 (Inhibitor_BET (BRD4))  | 12  | 
+|  | DMSO (Control)  | 9  | 
+|  | Etoposide (Inhibitor_Topo II)  | 11  | 
+|  | Temsirolimus (Inhibitor_mTOR)  | 11  | 
+| ------------- | ------------- |------------- |
+| H1299  | (+)-JQ1 (Inhibitor_BET (BRD4))  | 11  | 
+|  | DMSO (Control)  | 9  | 
+|  | Etoposide (Inhibitor_Topo II)  | 12  | 
+|  | Temsirolimus (Inhibitor_mTOR)  | 11  | 
+| ------------- | ------------- |------------- |
+| II-18 | (+)-JQ1 (Inhibitor_BET (BRD4))  | 8  | 
+|  | DMSO (Control)  | 8  | 
+|  | Etoposide (Inhibitor_Topo II)  | 11  | 
+|  | Temsirolimus (Inhibitor_mTOR)  | 11  | 
 
 # Installation
