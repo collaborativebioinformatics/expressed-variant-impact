@@ -73,17 +73,15 @@ CTAT pipeline was applied to a dataset (Suzuki et al. 2019, ENA accession: PRJDB
 
 | Cell Line  | Drug | Number of Samples |
 | ------------- | ------------- |------------- |
-| A549 | (+)-JQ1 (Inhibitor_BET (BRD4))  | 12  | 
+| **A549** | (+)-JQ1 (Inhibitor_BET (BRD4))  | 12  | 
 |  | DMSO (Control)  | 9  | 
 |  | Etoposide (Inhibitor_Topo II)  | 11  | 
 |  | Temsirolimus (Inhibitor_mTOR)  | 11  | 
-| ------------- | ------------- |------------- |
-| H1299  | (+)-JQ1 (Inhibitor_BET (BRD4))  | 11  | 
+| **H1299**  | (+)-JQ1 (Inhibitor_BET (BRD4))  | 11  | 
 |  | DMSO (Control)  | 9  | 
 |  | Etoposide (Inhibitor_Topo II)  | 12  | 
 |  | Temsirolimus (Inhibitor_mTOR)  | 11  | 
-| ------------- | ------------- |------------- |
-| II-18 | (+)-JQ1 (Inhibitor_BET (BRD4))  | 8  | 
+| **II-18** | (+)-JQ1 (Inhibitor_BET (BRD4))  | 8  | 
 |  | DMSO (Control)  | 8  | 
 |  | Etoposide (Inhibitor_Topo II)  | 11  | 
 |  | Temsirolimus (Inhibitor_mTOR)  | 11  | 
