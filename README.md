@@ -26,7 +26,11 @@ The CTAT-Mutations Pipeline integrates GATK Best Practices along with downstream
 
 [Workflow](img/ctat_workflow.png)
 
+# How to use the pipeline
 
+## Input
+
+A RNA-seq fastq file.
 
 We encoded the pipeline using Workflow Description Language (WDL) that was tested on an outside platform for fidelity, and it and ran without significant problems. Each fastq took about two hours, including data loading. The WDL implementation was then moved to DNA Nexus, and an app was created with: 
 
@@ -39,16 +43,6 @@ In DNA Nexus, the workflow ontains the following components:
 For the example run, the following configuration settings were used: 
 
 ![Configuration](configurations.png)
-
-And right now we're stuck at this error: 
-
-![Error](error_memoryunitg.png)
-
-# How to use the pipeline
-
-
-## Input
-
 
 ## Output
 
@@ -105,4 +99,8 @@ CTAT pipeline was applied to a dataset (Suzuki et al. 2019, ENA accession: PRJDB
 
 See **SraRunTable_filtered.txt** for individual level metadata.
 
-# Installation
+# References
+
+- Data https://www.nature.com/articles/s41598-019-55692-9 
+- CTAT pipeline https://link.springer.com/article/10.1186/s13059-019-1842-9 
+- OpenCRAVAT https://www.cancergeneticsjournal.org/article/S2210-7762(20)30193-9/pdf 
