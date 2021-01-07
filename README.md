@@ -1,13 +1,13 @@
 # expressed-variant-impact
 
 # Contributors
-Brian Haas 
+Brian Haas (bhaas@broadinstitute.org)
 
-Olaitan
+Olaitan Awe (laitanawe@gmail.com)
 
-Meghana Pagadala 
+Meghana Pagadala (mpagadal@ucsd.edu)
 
-Kym Pagel
+Kym Pagel (kpagel1442@gmail.com)
 
 
 # Intro statement
