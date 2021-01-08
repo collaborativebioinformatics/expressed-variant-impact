@@ -122,5 +122,5 @@ See **SraRunTable_filtered.txt** for individual level metadata.
 # References
 
 - Data https://www.nature.com/articles/s41598-019-55692-9 
-- CTAT pipeline https://link.springer.com/article/10.1186/s13059-019-1842-9 
+- CTAT pipeline https://github.com/NCIP/ctat-mutations/wiki 
 - OpenCRAVAT https://www.cancergeneticsjournal.org/article/S2210-7762(20)30193-9/pdf 
