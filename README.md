@@ -71,6 +71,11 @@ The output from the CTAT-Mutations pipeline includes variant vcf files, summary 
 - Link to protein visualization
 - Variant pathogenicity prediction by VEST and FATHMM
 
+# Accessibility:
+
+CTAT variant calling pipeline is available through OpenCRAVAT, aa open source, scalable decision support system for analysis of variant and gene information. Users can access OpenCRAVAT with a dynamic GUI, download tools, create customized pipelines, and explore results. DNAnexus platform allows for app and pipeline import in addition to a library of available apps for variant and transcriptome analysis. CTAT pipeline used for this project can be found with DNAnexus ID: project-FzpxV2j06F1JYgg6F553Z9yv:applet-FzqfjGQ06F12qGyj3jjZFKV1
+
+
 # Testing
 
 ## Dataset
