@@ -31,7 +31,25 @@ A RNA-seq fastq file.
 
 We encoded the pipeline using Workflow Description Language (WDL) that was tested on an outside platform for fidelity, and it and ran without significant problems. Each fastq took about two hours, including data loading. The WDL implementation was then moved to DNA Nexus, and an app was created with: 
 
-```java -jar dxWDL-v1.50.jar compile ctat_mutations_2pt4.wdl -project project-FzpxV2j06F1JYgg6F553Z9yv```. 
+```java -jar dxWDL-v1.50.jar compile ctat_mutations_2pt5.wdl -project project-FzpxV2j06F1JYgg6F553Z9yv```. 
+
+
+All fastq samples were run in batch mode on DNANexus via:
+
+```
+dx generate_batch_inputs -istage-common.left_fastq="(.*).fastq$"
+
+dx run /ctat_mutations_wf \
+   -istage-common.ctat_genome_lib_tar=/genome_resources/GRCh38_gencode_v22_CTAT_lib_Apr032020.wMutLib.dx.tar \
+   --batch-tsv dx_batch.0000.tsv \
+   --destination=/ctat_pipe_outputs \
+   --instance-type=mem3_hdd2_v2_x8 \
+   --batch-folders -istage-common.sample_name=dx \
+   -istage-common.docker="trinityctat/ctat_mutations:2.5.0" \
+   -istage-common.threads=8
+
+```
+
 
 In DNA Nexus, the workflow ontains the following components: 
 
